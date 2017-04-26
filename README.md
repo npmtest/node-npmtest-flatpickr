@@ -1,6 +1,6 @@
 # npmtest-flatpickr
 
-#### test coverage for  [flatpickr (v2.5.7)](https://chmln.github.io/flatpickr)  [![npm package](https://img.shields.io/npm/v/npmtest-flatpickr.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-flatpickr) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-flatpickr.svg)](https://travis-ci.org/npmtest/node-npmtest-flatpickr)
+#### basic test coverage for  [flatpickr (v2.5.8)](https://chmln.github.io/flatpickr)  [![npm package](https://img.shields.io/npm/v/npmtest-flatpickr.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-flatpickr) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-flatpickr.svg)](https://travis-ci.org/npmtest/node-npmtest-flatpickr)
 
 #### A lightweight, powerful javascript datetime picker
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-flatpickr/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-flatpickr/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-flatpickr/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-flatpickr/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-flatpickr/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-flatpickr/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-flatpickr/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-flatpickr/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-flatpickr/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-flatpickr/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-flatpickr/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-flatpickr/build/coverage.html/index.html)
 
@@ -78,10 +78,10 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "52b2c98880a5500e7ae8c04244d5a0c133152e00",
-        "tarball": "https://registry.npmjs.org/flatpickr/-/flatpickr-2.5.7.tgz"
+        "shasum": "e9a0eb73c6e95573fcdcd378c8487e22902c3eac",
+        "tarball": "https://registry.npmjs.org/flatpickr/-/flatpickr-2.5.8.tgz"
     },
-    "gitHead": "dcda8a9f0e568905094b015d003f1ddd9a629855",
+    "gitHead": "f299bf3553eb7a6692588f5e1799a2b4e55af2b4",
     "homepage": "https://chmln.github.io/flatpickr",
     "keywords": [
         "javascript",
@@ -113,7 +113,8 @@
         "test": "jest --bail"
     },
     "style": "dist/flatpickr.css",
-    "version": "2.5.7"
+    "version": "2.5.8",
+    "bin": {}
 }
 ```
 
